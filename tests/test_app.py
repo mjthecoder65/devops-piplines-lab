@@ -2,4 +2,5 @@ from app import index
 
 
 def test_index():
-    assert index() == "Hello, world!"
+    res = index()
+    assert res['id'] == 1
